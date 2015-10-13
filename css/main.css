@@ -1,1 +1,85 @@
 /* Your stylesheet goes here */
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+font-family: 'Raleway', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic);
+font-family: 'Lato', sans-serif;
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+body {
+	font-family: "Lato", "Helvetica Neuw", Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300px;
+	background-color: #E9EAEE;
+}
+
+h1, h2, h3 {
+	font-family: "Raleway", "Helvetica Neuw", Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		font-size: 20px;
+	}
+	nav {
+		background-color: rgba(24, 28, 34, 0.8);
+	}
+
+	.navlinks {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	#header{
+		background-image: url(/Users/pangclaire/desktop/code/dawg-coffee/img/background-sm.jpg);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	h2 {
+		text-align: center;
+		padding-bottom: 1em;
+	}
+}
+
+h2{
+	color: #BC6026;
+}
+
+nav{
+	position: fixed;
+	top: 0px;
+	background-color: #181C22;
+	font-size: 16px;
+	color: white;
+	margin-left: 15px;
+}
+
+li {
+	display: inline;
+}
+
+#navsvg {
+	fill: white;
+	height: 1em;
+}
+
+.navlinks {
+	padding: 0.5em;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+
+.navlinks:hover, .navlinks:focus {
+	text-decoration: none;
+	color: #D87E28;
+}
+
+#navsvg:hover, #navsvg:focus {
+	fill: #D87E28;
+}
+
+#header {
+	padding-top: 3em;
+}
+
+
